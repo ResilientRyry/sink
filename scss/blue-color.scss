@@ -1,0 +1,78 @@
+@import "variables.scss"; // variable.less
+/* -----------------------------------
+**   Blue Primary Color
+-------------------------------------*/
+.blue-primary-color{
+    a{
+        &:hover,&:focus{
+            color: $blue;
+        }
+    }
+    .base-color{
+        color: $blue;
+    }
+    .header-area .logo{
+        a{
+            color: $blue;
+        }
+    }
+    .blog-gallery-post.owl-carousel .owl-dot:hover,
+    .blog-gallery-post.owl-carousel .owl-nav .owl-next:hover,
+    .blog-gallery-post.owl-carousel .owl-nav .owl-prev:hover{
+        background:$blue;
+    }
+    #easy-menu > ul > li > a{
+        &:hover{
+            color: $blue;
+        }
+    }
+    .social-sharing-icon span a{
+        color: $white;
+        &:hover{
+            background: $blue;
+        }
+    }
+    .easy-button, .easy-button-two{
+        color: $blue;
+        &:hover{
+            border-color: $blue;
+            background: $blue;
+            color: $white;
+        }
+    }
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="date"]:focus,
+    input[type="url"]:focus,
+    input[type="search"]:focus,
+    input[type="text"]:focus,
+    input[type="text"]:focus,
+    input[type="text"]:focus,
+    input[type="text"]:focus,
+    .form-control:focus,
+    textarea:focus,
+    textarea.form-control:focus{
+        border-color: $blue;
+    }
+    .easy-button-two.active{
+        color: $white;
+        background: $blue;
+    }
+    .blue-slider .easy-button-two, .blue-slider .easy-button {
+    	color: #fff;
+    }
+    .top-search-input-wrap .search-wrap .search.educon-top-search .sp_search_input::after{
+        color: $blue;
+    }
+    .blue-slider{
+        a{
+            &:hover{
+                color:$white;
+            }
+        }
+    }
+}
+
+/* -----------------------------------
+**  End Blue Primary Color
+-------------------------------------*/

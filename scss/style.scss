@@ -1,0 +1,32 @@
+
+/*------------------------------------------------------------------
+    Template Name:	Easy
+    Template URI: http://enroutedigitallab.com/html/easy
+    Description :: Blog TEMPLATE
+    Author: enroutedigitallab
+    Author URI: http://enroutedigitallab.com/
+    License: GPL V2 or Later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Version: 1.0
+*/
+
+    /*
+    ========================================================================
+    Index
+    ------------------------------------------------------------------------
+
+    # -  1.0 - All Global css
+    # -  2.0 - Menu Area
+    # -  3.0 - SLider
+    # -  4.0 - blog layout
+    # -  5.0 - Sidebar
+    # -  6.0 - Footer
+    # -  7.0 - Blog Page
+    # -  8.0 - Blue Primary Color
+    */
+
+@import "global.scss"; // Global Classes less
+@import "home.scss"; // button Classes less
+@import "about-us.scss"; // button Classes less
+@import "blog.scss"; // Work Classes less
+@import "blue-color.scss"; // button Classes less

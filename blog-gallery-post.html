@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Easy Blog</title>
+    <!-- ================= Favicon ================== -->
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="icon" sizes="72x72" href="images/favicon/android-icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7CPoppins:300,400,500,600,700" rel="stylesheet">
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Animate css-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Jquery Ui -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Style css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive css-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Modernizr js-->
+    <script src="js/modernizr-2.8.3.min.js"></script>
+    <!-- a-frame ----------------------------------------->
+    <meta name="description" content="360&deg; Image Gallery - A-Frame">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://npmcdn.com/aframe-animation-component@3.0.1"></script>
+    <script src="https://npmcdn.com/aframe-event-set-component@3.0.1"></script>
+    <script src="https://npmcdn.com/aframe-layout-component@3.0.1"></script>
+    <script src="https://npmcdn.com/aframe-template-component@3.1.1"></script>
+    <script src="components/set-image.js"></script>
+</head>
+<header class="header-area">
+    <div class="container">
+        <div class="menu-area">
+            <div class="humbarger" id="humbarger">
+                <i class="icon-menu-button"></i>
+            </div>
+            <div class="main-menu">
+                <nav id='easy-menu'>
+                    <div id="head-mobile">
+                    </div>
+                    <div class="button">
+                        <i class="icon-menu-button"></i>
+                    </div>
+                    <ul>
+                        <li><a href='index.html'>Home</a>
+                        </li>
+                        <li><a href='#'>Feature</a>
+                            <ul>
+                                <li><a href="blog-video-post.html">Video Post</a></li>
+                                <li><a href="blog-quote-post.html">Qoute Post</a></li>
+                                <li><a href="blog-gallery-post.html">Gallery Post</a></li>
+                            </ul>
+                        </li>
+                        <li><a href='contact.html'>Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="search-box">
+                <a href="#!" class="search-icon"><i class="icon-musica-searcher"></i></a>
+                <div class="top-search-input-wrap">
+                    <span class="close-icon">x</span>
+                    <div class="top-search-overlay"></div>
+                    <form action="#" method="post">
+                        <div class="search-wrap">
+                            <div class="search  pull-right educon-top-search">
+                                <div class="sp_search_input">
+                                    <input name="searchword" maxlength="200" class="pull-right" placeholder="Search Here . . ." type="text"/>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div><!--/.top-search-input-wrap-->
+            </div>
+
+        </div>
+        <div class="logo">
+            <a href="#">Easy<span class="base-color">!</span></a>
+        </div>
+    </div>
+    <div class="hidden-sidebar">
+        <div id="hidden-sidebar-close">
+            <i class="icon-icomoon-close"></i>
+        </div>
+        <div class="sidebar">
+            <aside class="widget author-widget text-center">
+                <div class="image">
+                    <img src="images/sidebar/author.png" alt="author" class="img-circle">
+                </div>
+                <div class="widget-title">
+                    <h3 class="base-color">About Me</h3>
+                </div>
+                <p>Nor again an there anyone who loves pu or desires to obtains pain of tself causes occur in toil and pain</p>
+                <img src="images/sidebar/signature.jpg" alt="signature">
+            </aside><!--/.author-widget-->
+            <aside class="widget recent-post-widget">
+                <div class="widget-title">
+                    <h3 class="base-color">Recent Post</h3>
+                </div>
+                <div class="recent-post-item">
+                    <div class="image">
+                        <img src="images/sidebar/recent-post1.jpg" alt="recent post">
+                    </div>
+                    <div class="text">
+                        <h4><a href="#">Face is the mirror of your heart</a></h4>
+                        <div class="date">
+                            22 April,17
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="recent-post-item">
+                    <div class="image">
+                        <img src="images/sidebar/recent-post2.jpg" alt="recent post">
+                    </div>
+                    <div class="text">
+                        <h4><a href="#">Face is the mirror of your heart</a></h4>
+                        <div class="date">
+                            22 April,17
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="recent-post-item">
+                    <div class="image">
+                        <img src="images/sidebar/recent-post3.jpg" alt="recent post">
+                    </div>
+                    <div class="text">
+                        <h4><a href="#">Face is the mirror of your heart</a></h4>
+                        <div class="date">
+                            22 April,17
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </aside><!--/.recent-post-widget-->
+            <aside class="widget top-post-widget">
+                <div class="widget-title">
+                    <h3 class="base-color">Top Rated</h3>
+                </div>
+                <div class="recent-post-item">
+                    <div class="image">
+                        <img src="images/sidebar/recent-post1.jpg" alt="recent post">
+                    </div>
+                    <div class="text">
+                        <h4><a href="#">Face is the mirror of your heart</a></h4>
+                        <div class="easy-blog-post-rating">
+                            <input type="hidden" class="rating"  data-readonly="true" value="2.5"/>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="recent-post-item">
+                    <div class="image">
+                        <img src="images/sidebar/recent-post2.jpg" alt="recent post">
+                    </div>
+                    <div class="text">
+                        <h4><a href="#">Face is the mirror of your heart</a></h4>
+                        <div class="easy-blog-post-rating">
+                            <input type="hidden" class="rating"  data-readonly="true" value="2.5"/>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="recent-post-item">
+                    <div class="image">
+                        <img src="images/sidebar/recent-post3.jpg" alt="recent post">
+                    </div>
+                    <div class="text">
+                        <h4><a href="#">Face is the mirror of your heart</a></h4>
+                        <div class="easy-blog-post-rating">
+                            <input type="hidden" class="rating"  data-readonly="true" value="2.5"/>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </aside><!--/.recent-post-widget-->
+        </div>
+    </div>
+</header>
+
+
+
+
+
+<body>
+  <a-scene>
+    <a href="index.html">button</a>
+    <a-assets>
+      <img id="city-thumb" crossorigin="anonymous" src="images/File_001.png">
+      <img id="cubes-thumb" crossorigin="anonymous" src="images/File_002.png">
+      <img id="sechelt-thumb" crossorigin="anonymous" src="images/File_003.png">
+      <img id="city-thumb2" crossorigin="anonymous" src="images/File_004.png">
+      <img id="cubes-thumb2" crossorigin="anonymous" src="images/File_005.png">
+      <img id="sechelt-thumb2" crossorigin="anonymous" src="images/File_006.png">
+      <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
+      <img id="city" crossorigin="anonymous" src="images/File_001.png">
+      <img id="cubes" crossorigin="anonymous" src="images/File_002.png">
+      <img id="sechelt" crossorigin="anonymous" src="images/File_003.png">
+      <img id="city2" crossorigin="anonymous" src="images/File_004.png">
+      <img id="cubes2" crossorigin="anonymous" src="images/File_005.png">
+      <img id="sechelt2" crossorigin="anonymous" src="images/File_006.png">
+
+      <!-- Image link template to be reused. -->
+      <script id="link" type="text/html">
+        <a-entity class="link"
+          geometry="primitive: plane; height: 1; width: 1"
+          material="shader: flat; src: ${thumb}"
+          event-set__1="_event: mousedown; scale: 1 1 1"
+          event-set__2="_event: mouseup; scale: 1.2 1.2 1"
+          event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+          event-set__4="_event: mouseleave; scale: 1 1 1"
+          set-image="on: click; target: #image-360; src: ${src}"
+          sound="on: click; src: #click-sound"></a-entity>
+      </script>
+    </a-assets>
+
+    <!-- 360-degree image. -->
+    <a-sky id="image-360" radius="10" src="#city"></a-sky>
+
+    <!-- Image links. -->
+    <a-entity id="links" layout="type: line; margin: 1.5" position="0 -1 -4">
+      <a-entity template="src: #link" data-src="#cubes" data-thumb="#cubes-thumb"></a-entity>
+      <a-entity template="src: #link" data-src="#city" data-thumb="#city-thumb"></a-entity>
+      <a-entity template="src: #link" data-src="#sechelt" data-thumb="#sechelt-thumb"></a-entity>
+      <a-entity template="src: #link" data-src="#cubes2" data-thumb="#cubes-thumb2"></a-entity>
+      <a-entity template="src: #link" data-src="#city2" data-thumb="#city-thumb2"></a-entity>
+      <a-entity template="src: #link" data-src="#sechelt2" data-thumb="#sechelt-thumb2"></a-entity>
+    </a-entity>
+
+    <!-- Camera + cursor. -->
+    <a-entity camera look-controls>
+      <a-cursor id="cursor"
+        animation__click="property: scale; startEvents: click; from: 0.1 0.1 0.1; to: 1 1 1; dur: 150"
+        animation__fusing="property: fusing; startEvents: fusing; from: 1 1 1; to: 0.1 0.1 0.1; dur: 1500"
+        event-set__1="_event: mouseenter; color: springgreen"
+        event-set__2="_event: mouseleave; color: black"
+        fuse="true"
+        raycaster="objects: .link"></a-cursor>
+    </a-entity>
+  </a-scene>
+</body>
+</html>
+  <footer class="blue-bg main-footer no-margin">
+      <div class="container">
+          <div class="footer-logo">Easy!</div>
+      </div>
+  </footer>
+  <!-- == jQuery Librery == -->
+  <script src="js/jquery-2.2.4.min.js"></script>
+<!-- == Bootsrap js File == -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- == Nice Scroll == -->
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <!-- == Bootstrap Rating == -->
+  <script src="js/bootstrap-rating.min.js"></script>
+  <!-- == Owl Carousel == -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- == Match Height == -->
+  <script src="js/jquery.matchHeight-min.js"></script>
+<!-- == Custom Js == -->
+  <script src="js/custom.js"></script>
+</body>
+    <footer class="blue-bg main-footer no-margin">
+        <div class="container">
+            <div class="footer-logo">Easy!</div>
+        </div>
+    </footer>
+    <!-- == jQuery Librery == -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+  <!-- == Bootsrap js File == -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- == Nice Scroll == -->
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <!-- == Bootstrap Rating == -->
+    <script src="js/bootstrap-rating.min.js"></script>
+    <!-- == Owl Carousel == -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- == Match Height == -->
+    <script src="js/jquery.matchHeight-min.js"></script>
+  <!-- == Custom Js == -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
